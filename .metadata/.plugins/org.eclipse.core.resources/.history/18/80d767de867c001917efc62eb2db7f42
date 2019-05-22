@@ -1,0 +1,19 @@
+#Spring DataSource
+spring.datasource.url = jdbc:mysql://localhost:3306/projekat?useSSL=false&createDatabaseIfNotExist=true
+spring.datasource.username = nena
+spring.datasource.password = nena12!!
+
+#server.port = 1245
+
+spring.datasource.validationQuery = SELECT 1
+#JPA-Hibernate
+spring.jpa.show-sql = true	
+	
+#kreira tabele na osnovu anotacija @Entity i kada aplikacija zavrsi
+#sa radom dropuje ih
+spring.jpa.hibernate.ddl-auto = create-drop
+
+
+
+
+

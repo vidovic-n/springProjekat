@@ -1,0 +1,6 @@
+package com.java.model;
+
+public class RegistrationMessage {
+	private String status;
+	private String message;
+}
